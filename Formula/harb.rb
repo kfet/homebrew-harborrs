@@ -7,28 +7,28 @@
 class Harb < Formula
   desc "Self-hosted RSS server speaking the Google Reader API dialect"
   homepage "https://github.com/kfet/harb"
-  version "0.20.3"
+  version "0.20.4"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kfet/harb/releases/download/v0.20.3/harb-0.20.3-darwin-arm64.tar.gz"
-      sha256 "c26d33cdf18060130618406dfdb5d7bac2349f15699a80b64cc2d44e3f13be1f"
+      url "https://github.com/kfet/harb/releases/download/v0.20.4/harb-0.20.4-darwin-arm64.tar.gz"
+      sha256 "1511666d8a09b6fba59dfe0938453b42793cab9bc1915eb8e428c506db4dd10a"
     end
     on_intel do
-      url "https://github.com/kfet/harb/releases/download/v0.20.3/harb-0.20.3-darwin-amd64.tar.gz"
-      sha256 "dad560dcfe24bf221b0af758ccc681cbfe2b6d5792a76e94ab3d54a8a6ee8733"
+      url "https://github.com/kfet/harb/releases/download/v0.20.4/harb-0.20.4-darwin-amd64.tar.gz"
+      sha256 "2bb34b049114d7ee5833194d51f0a34ca4435b1d15836790402d8574f170285b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kfet/harb/releases/download/v0.20.3/harb-0.20.3-linux-arm64.tar.gz"
-      sha256 "9ee96801c9a4878502c8d2a679ba4acbf12803834cb9d9f479f225c60dae3306"
+      url "https://github.com/kfet/harb/releases/download/v0.20.4/harb-0.20.4-linux-arm64.tar.gz"
+      sha256 "9e221e6937e681d58bf2e3921d4b5f8a52681226a5c25889e5b9f68e8957a320"
     end
     on_intel do
-      url "https://github.com/kfet/harb/releases/download/v0.20.3/harb-0.20.3-linux-amd64.tar.gz"
-      sha256 "bf1ba309edbb334264e2e41a74b21d95656fecb71d13e71b0c259e87be33ee9f"
+      url "https://github.com/kfet/harb/releases/download/v0.20.4/harb-0.20.4-linux-amd64.tar.gz"
+      sha256 "dbcd364b9c3e90021ee05e10fb938b113eaaa8ea093d826be2e48c83a79caf06"
     end
   end
 
