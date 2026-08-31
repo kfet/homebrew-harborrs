@@ -7,28 +7,28 @@
 class Gorun < Formula
   desc "Run Go without installing Go — on-demand, verified toolchain launcher"
   homepage "https://github.com/kfet/gorun"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/kfet/gorun/releases/download/v0.1.0/gorun-0.1.0-darwin-arm64.tar.gz"
-      sha256 "c9a3961911f1c0a2dd6b21d6961d4a8ae1e6bad2d4067aafa8b59e4c8446c3d4"
+      url "https://github.com/kfet/gorun/releases/download/v0.1.1/gorun-0.1.1-darwin-arm64.tar.gz"
+      sha256 "8c5f83a4c0212a20989fca4dc5691e3e24c900cb98e174cd8167144a82d32d6f"
     end
     on_intel do
-      url "https://github.com/kfet/gorun/releases/download/v0.1.0/gorun-0.1.0-darwin-amd64.tar.gz"
-      sha256 "0c581561926e48aa849c877ec3852e7ef60d61a56ad8621c1b97655236b269c6"
+      url "https://github.com/kfet/gorun/releases/download/v0.1.1/gorun-0.1.1-darwin-amd64.tar.gz"
+      sha256 "dcb20a9153a32c02e994412bc67c1de682034b24e51628a9338aa63cfb277be7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/kfet/gorun/releases/download/v0.1.0/gorun-0.1.0-linux-arm64.tar.gz"
-      sha256 "eaa26ff40a10ec36d6a001f3e846d40ae1d09a9107ca71cdd182cae05b0c59a7"
+      url "https://github.com/kfet/gorun/releases/download/v0.1.1/gorun-0.1.1-linux-arm64.tar.gz"
+      sha256 "ab7c133a1bb0abd222aaf02a8ed834b6bf9971558df544f8303dc396db822f2c"
     end
     on_intel do
-      url "https://github.com/kfet/gorun/releases/download/v0.1.0/gorun-0.1.0-linux-amd64.tar.gz"
-      sha256 "a0acbbbf4996c6d2d6dab0e45aef0536ffbf3c224e9cc443a232d8eea375d9ca"
+      url "https://github.com/kfet/gorun/releases/download/v0.1.1/gorun-0.1.1-linux-amd64.tar.gz"
+      sha256 "86f73231977233d138573c634796820e3a0a66b726763ca9ddb136222a0360e4"
     end
   end
 
